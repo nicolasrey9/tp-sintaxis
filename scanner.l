@@ -8,9 +8,9 @@
 
 cter|principal|mientras|cambiar|devolver|caso|traducir {printf("PALABRA RESERVADA: %s\n", yytext);}
 
-[aeiorsnmdchlbtg][aeiorsnmdchlbtg_]{0,15}              {printf("IDENTIFICADOR: %s\n", yytext);}  /* Identificadores */
+[aeiorsnmdchlbtg][aeiorsnmdchlbtg_]{0,15}              {printf("IDENTIFICADOR: %s\n", yytext);}
 
-==|!=|=                                                {printf("OPERADOR: %s\n", yytext);}   /*Operadores */ 
+==|!=|=                                                {printf("OPERADOR: %s\n", yytext);}
 
 [! \ [ \]]                                             {printf("DELIMITADOR: %s\n", yytext);}
 
