@@ -1,0 +1,16 @@
+principal[
+
+cter letra = 'a' !
+cter aeio = 'e' !
+
+cambiar letra [
+    caso 'a'!
+        traducir letra !
+        romper!
+    caso 'e'!
+        traducir letra!
+        romper!
+]
+
+devolver 'a' !
+]

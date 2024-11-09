@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.pl": "prolog",
-        "*.l": "cpp"
+        "*.l": "cpp",
+        "*.y": "cpp"
     }
 }

@@ -1,0 +1,11 @@
+principal [
+    cter aeio = 'b' !
+    cter letra = 'a' !
+
+    mientras aeio != 'a' [
+        mostrar 'a''e''i' !
+        cter aeio = 'a' !
+    ]
+
+devolver 'e' !
+]
