@@ -1,0 +1,11 @@
+--------------------------- COMO USAR
+
+-- COMPILAR: 
+
+bison -d parser.y
+flex scanner.l
+gcc parser.tab.c lex.yy.c -o parser -lfl
+
+-- EJECUTAR:
+
+./parser testBueno.txt    (o cualquier test)
